@@ -1,0 +1,178 @@
+/* ========= common css starts ======== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+/* ========= common css ends ======== */
+
+/* ========= Header section starts ======== */
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 166, 0, 0.11);
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, orangered, orange);
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.header-image {
+    width: 50%;
+    margin: 50px;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+/* ========= Header section ends ======== */
+
+/* ========= Main section starts ======== */
+
+/* our services section starts */
+#services-section {
+    margin: 80px auto;
+}
+
+.services-card {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-description {
+    width: 30%;
+    background-color: rgba(255, 166, 0, 0.11);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.card-image {
+    width: 30%;
+}
+
+.card-image img {
+    width: 100%;
+    padding: 10px;
+}
+
+.card-text {
+    width: 70%;
+}
+
+.card-text p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+/* our services section ends */
+
+/* our products section starts */
+
+.products-details {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products-card {
+    width: 30%;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgb(223, 223, 223);
+    padding: 10px;
+}
+
+.products-image img {
+    width: 100%;
+}
+
+.products-text h3 {
+    padding: 10px 0;
+}
+
+/* our products section ends */
+
+/* Latest updates section starts */
+#updates-section {
+    margin: 100px 0;
+}
+
+.updates-description {
+    width: 85%;
+    height: 300px;
+    margin: 30px auto;
+    background-color: rgba(255, 166, 0, 0.11);
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 35px;
+    margin-top: 45px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    text-align: center;
+    background: linear-gradient(45deg, orangered, orange);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Latest updates section ends */
+
+/* ========= Main section ends ======== */
+
+/* ========= Footer section starts ======== */
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* ========= Footer section ends ======== */
